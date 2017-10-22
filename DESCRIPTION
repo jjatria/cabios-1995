@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: c(
     person("JJ", "Atria",   email = "jjatria@gmail.com",  role = c("aut", "cre")),
     person("Tim", "Schoof", email = "t.schoof@ucl.ac.uk", role = c("aut", "cre")),
-    person("Yue", "Zhang",  email = "yue.zhang.12.ac.uk", role = c("aut", "cre")),
+    person("Yue", "Zhang",  email = "yue.zhang.12@ucl.ac.uk", role = c("aut", "cre")),
 )
 Description: A multivariate analysis method called co-inertia analysis was
     used to determine the main relationships between two data tables having
