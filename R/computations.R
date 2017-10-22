@@ -1,15 +1,16 @@
-#' Title Computations for CABIOS 1995 data 
+#' Computations on IndiceVals & ProtComp data
 #'
-#' @param Protcomp 
+#' @param ProtComp 
 #' @param IndiceVals 
 #'
-#' @return Results of Correspondence analysis, Principal Components Analysis, and Co-inertia Analysis
+#' @return Returns the co-inertia analysis results
 #' @export
 #'
 #' @examples
-#' computations(Protcomp,IndiceVals)
-
-computations <- function(Protcomp,IndiceVals){
+#' cia <-computations(ProtComp,IndiceVals)
+#' 
+computations <- function(ProtComp,IndiceVals){
+  
   # load required package
   library(ade4)
   

@@ -3,9 +3,9 @@ Title: Reproduce the Results of Thioulouse and Lobry (1995)
 Version: 0.0.0.9000
 Authors@R: c(
     person("JJ", "Atria",   email = "jjatria@gmail.com",  role = c("aut", "cre")),
-    person("Tim", "Schoof", email = "t.schoof@ucl.ac.uk", role = c("aut", "cre")),
-    person("Yue", "Zhang",  email = "yue.zhang.12@ucl.ac.uk", role = c("aut", "cre")),
-)
+    person("Tim", "Schoof", email = "t.schoof@ucl.ac.uk", role = c("aut")),
+    person("Yue", "Zhang",  email = "yue.zhang.12@ucl.ac.uk", role = c("aut"))
+    )
 Description: A multivariate analysis method called co-inertia analysis was
     used to determine the main relationships between two data tables having
     identical rows. This method is available in the ADE multivariate analysis
@@ -23,7 +23,8 @@ Description: A multivariate analysis method called co-inertia analysis was
     when they are needed for structural or functional reasons. These results
     are discussed in terms of selective pressure acting on amino-acid
     composition of proteins.
-Depends: R (>= 3.3.2)
+Depends: R (>= 3.3.0)
 License: GPL3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
