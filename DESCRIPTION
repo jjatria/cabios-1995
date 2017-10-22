@@ -1,0 +1,29 @@
+Package: cabios1995
+Title: Reproduce the Results of Thioulouse and Lobry (1995)
+Version: 0.0.0.9000
+Authors@R: c(
+    person("JJ", "Atria",   email = "jjatria@gmail.com",  role = c("aut", "cre")),
+    person("Tim", "Schoof", email = "t.schoof@ucl.ac.uk", role = c("aut", "cre")),
+    person("Yue", "Zhang",  email = "yue.zhang.12.ac.uk", role = c("aut", "cre")),
+)
+Description: A multivariate analysis method called co-inertia analysis was
+    used to determine the main relationships between two data tables having
+    identical rows. This method is available in the ADE multivariate analysis
+    package for Macintosh micro-computers. It was applied to two data sets,
+    one containing the amino-acid composition of 999 E. coli proteins, and the
+    other the values of 402 physico-chemical properties for the 20 natural
+    amino-acids. There were strong relationships between amino-acid
+    physico-chemical properties and the composition of proteins. The first
+    common factor was hydrophobicity; it is linked to the biological
+    environment of proteins, either in the cytoplasm (or outside the cell),
+    or in the nonpolar environment of the phospholipid bilayer of biological
+    membranes. The second factor linked the expressivity of protein genes and
+    the propensity of amino-acids to form alpha helix/beta sheets. The third
+    factor showed that heavy, aromatic amino-acids tend to be avoided, except
+    when they are needed for structural or functional reasons. These results
+    are discussed in terms of selective pressure acting on amino-acid
+    composition of proteins.
+Depends: R (>= 3.3.2)
+License: GPL3
+Encoding: UTF-8
+LazyData: true
