@@ -10,20 +10,17 @@
 #' cia <-computations(ProtComp, IndiceVals)
 #' 
 computations <- function(ProtComp, IndiceVals) {
-  
-  # load required package
-  library(ade4);
   axes = 3;
   
   # Correspondence analysis:
-  coa <- dudi.coa(
+  coa <- ade4::dudi.coa(
     df     = ProtComp,
     scannf = FALSE,
     nf     = axes
   );
   
   # Principal Component Analysis with coa's row weigth:
-  pca <- dudi.pca(
+  pca <- ade4::dudi.pca(
     df     = IndiceVals,
     row.w  = coa$lw,
     scannf = FALSE,
@@ -31,7 +28,7 @@ computations <- function(ProtComp, IndiceVals) {
   );
   
   # Co-inertia Analysis:
-  cia <- coinertia(
+  cia <- ade4::coinertia(
     dudiX  = pca,
     dudiY  = coa,
     scannf = FALSE,
