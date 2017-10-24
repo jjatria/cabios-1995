@@ -13,12 +13,13 @@ computations <- function(ProtComp, IndiceVals) {
   
   # load required package
   library(ade4)
+  axes = 3
   
   # Correspondence analysis:
   coa <- dudi.coa(
     df     = ProtComp,
     scannf = FALSE,
-    nf     = 3
+    nf     = axes
   )
   
   # Principal Component Analysis with coa's row weigth:
@@ -26,7 +27,7 @@ computations <- function(ProtComp, IndiceVals) {
     df     = IndiceVals,
     row.w  = coa$lw,
     scannf = FALSE,
-    nf     = 3
+    nf     = axes
   )
   
   # Co-inertia Analysis:
@@ -34,6 +35,6 @@ computations <- function(ProtComp, IndiceVals) {
     dudiX  = pca,
     dudiY  = coa,
     scannf = FALSE,
-    nf     = 3
+    nf     = axes
   )
 }
