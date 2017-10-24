@@ -7,9 +7,9 @@
 #' @export
 #'
 #' @examples
-#' cia <-computations(ProtComp,IndiceVals)
+#' cia <-computations(ProtComp, IndiceVals)
 #' 
-computations <- function(ProtComp,IndiceVals){
+computations <- function(ProtComp, IndiceVals) {
   
   # load required package
   library(ade4)
