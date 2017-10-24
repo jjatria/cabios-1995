@@ -2,6 +2,7 @@
 #'
 #' @param ProtComp 
 #' @param IndiceVals 
+#' @param axes The number of kept axes (defaults to 3)
 #'
 #' @return Returns the co-inertia analysis results
 #' @export
@@ -9,8 +10,7 @@
 #' @examples
 #' cia <-computations(ProtComp, IndiceVals)
 #' 
-computations <- function(ProtComp, IndiceVals) {
-  axes = 3;
+computations <- function(ProtComp, IndiceVals, axes = 3) {
 
   # Correspondence analysis
   coa <- ade4::dudi.coa(
