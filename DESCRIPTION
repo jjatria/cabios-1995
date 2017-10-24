@@ -23,7 +23,7 @@ Description: A multivariate analysis method called co-inertia analysis was
     when they are needed for structural or functional reasons. These results
     are discussed in terms of selective pressure acting on amino-acid
     composition of proteins.
-Depends: R (>= 3.3.0)
+Depends: R (>= 3.2.0)
 License: GPL3
 Encoding: UTF-8
 LazyData: true
