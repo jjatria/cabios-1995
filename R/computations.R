@@ -34,4 +34,6 @@ computations <- function(ProtComp, IndiceVals) {
     scannf = FALSE,
     nf     = axes
   );
+
+  return(cia);
 }
