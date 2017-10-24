@@ -2,22 +2,24 @@
 % Please edit documentation in R/computations.R
 \name{computations}
 \alias{computations}
-\title{Title Computations on IndiceVals & ProtComp data}
+\title{Computations on IndiceVals & ProtComp data}
 \usage{
-computations(ProtComp, IndiceVals)
+computations(ProtComp, IndiceVals, axes = 3)
 }
 \arguments{
 \item{ProtComp}{}
 
 \item{IndiceVals}{}
+
+\item{axes}{The number of kept axes (defaults to 3)}
 }
 \value{
 Returns the co-inertia analysis results
 }
 \description{
-Title Computations on IndiceVals & ProtComp data
+Computations on IndiceVals & ProtComp data
 }
 \examples{
-cia <-computations(ProtComp,IndiceVals)
+cia <-computations(ProtComp, IndiceVals)
 
 }
